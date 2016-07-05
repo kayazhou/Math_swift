@@ -12,6 +12,10 @@
 		A275F9CC1D03CF4100FA48C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A275F9CA1D03CF4100FA48C6 /* Main.storyboard */; };
 		A275F9CE1D03CF4100FA48C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A275F9CD1D03CF4100FA48C6 /* Assets.xcassets */; };
 		A275F9D11D03CF4100FA48C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A275F9CF1D03CF4100FA48C6 /* LaunchScreen.storyboard */; };
+		A275F9DA1D052CAA00FA48C6 /* TableViewCellQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A275F9D91D052CAA00FA48C6 /* TableViewCellQuestion.swift */; };
+		A275F9DE1D052D4800FA48C6 /* TableViewCellMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A275F9DD1D052D4800FA48C6 /* TableViewCellMenu.swift */; };
+		A28B810D1D221D2E0095F101 /* ExamContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B810C1D221D2E0095F101 /* ExamContent.swift */; };
+		A28D4D1C1D1F8D0F002BF44C /* ComeOnJunior.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28D4D1B1D1F8D0F002BF44C /* ComeOnJunior.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A275F9CD1D03CF4100FA48C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A275F9D01D03CF4100FA48C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A275F9D21D03CF4100FA48C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A275F9D91D052CAA00FA48C6 /* TableViewCellQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellQuestion.swift; sourceTree = "<group>"; };
+		A275F9DD1D052D4800FA48C6 /* TableViewCellMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellMenu.swift; sourceTree = "<group>"; };
+		A28B810C1D221D2E0095F101 /* ExamContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamContent.swift; sourceTree = "<group>"; };
+		A28D4D1B1D1F8D0F002BF44C /* ComeOnJunior.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ComeOnJunior.storyboard; path = ../ComeOnJunior.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		A275F9C51D03CF4100FA48C6 /* comeonjunior */ = {
 			isa = PBXGroup;
 			children = (
+				A28D4D1B1D1F8D0F002BF44C /* ComeOnJunior.storyboard */,
+				A275F9D81D052C0700FA48C6 /* View */,
 				A275F9C61D03CF4100FA48C6 /* AppDelegate.swift */,
 				A275F9C81D03CF4100FA48C6 /* ViewController.swift */,
+				A28B810C1D221D2E0095F101 /* ExamContent.swift */,
 				A275F9CA1D03CF4100FA48C6 /* Main.storyboard */,
 				A275F9CD1D03CF4100FA48C6 /* Assets.xcassets */,
 				A275F9CF1D03CF4100FA48C6 /* LaunchScreen.storyboard */,
 				A275F9D21D03CF4100FA48C6 /* Info.plist */,
 			);
 			path = comeonjunior;
+			sourceTree = "<group>";
+		};
+		A275F9D81D052C0700FA48C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A275F9D91D052CAA00FA48C6 /* TableViewCellQuestion.swift */,
+				A275F9DD1D052D4800FA48C6 /* TableViewCellMenu.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +144,7 @@
 			files = (
 				A275F9D11D03CF4100FA48C6 /* LaunchScreen.storyboard in Resources */,
 				A275F9CE1D03CF4100FA48C6 /* Assets.xcassets in Resources */,
+				A28D4D1C1D1F8D0F002BF44C /* ComeOnJunior.storyboard in Resources */,
 				A275F9CC1D03CF4100FA48C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A275F9C91D03CF4100FA48C6 /* ViewController.swift in Sources */,
+				A28B810D1D221D2E0095F101 /* ExamContent.swift in Sources */,
 				A275F9C71D03CF4100FA48C6 /* AppDelegate.swift in Sources */,
+				A275F9DE1D052D4800FA48C6 /* TableViewCellMenu.swift in Sources */,
+				A275F9DA1D052CAA00FA48C6 /* TableViewCellQuestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +310,7 @@
 				A275F9D71D03CF4100FA48C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

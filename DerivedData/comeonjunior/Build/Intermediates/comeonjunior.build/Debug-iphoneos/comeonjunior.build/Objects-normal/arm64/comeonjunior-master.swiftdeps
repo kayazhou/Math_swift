@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "5e3301e4676432aff95750f8227ea7bb"
+build_time: [520925158, 964487000]
+inputs:
+  "/Users/kaisya/project/usa-xcode/Exam/comeonjunior/comeonjunior/ViewController.swift": [520661866, 0]
+  "/Users/kaisya/project/usa-xcode/Exam/comeonjunior/comeonjunior/ExamContent.swift": [520925158, 0]
+  "/Users/kaisya/project/usa-xcode/Exam/comeonjunior/comeonjunior/AppDelegate.swift": [520924394, 0]
+  "/Users/kaisya/project/usa-xcode/Exam/comeonjunior/comeonjunior/View/TableViewCellMenu.swift": [518501087, 0]
+  "/Users/kaisya/project/usa-xcode/Exam/comeonjunior/comeonjunior/View/TableViewCellQuestion.swift": [520235444, 0]
